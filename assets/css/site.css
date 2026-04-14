@@ -373,7 +373,7 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 0.02em;
   font-style: italic;
-  transform: translateX(0.04em);
+  transform: none;
 }
 
 .hero__title-line {
@@ -1730,13 +1730,27 @@ textarea {
   }
 
   .hero__title {
-    width: min(94vw, 40rem);
-    font-size: clamp(4.3rem, 16vw, 7.5rem);
+    width: min(90vw, 40rem);
+    font-size: clamp(4rem, 14vw, 7.5rem);
     line-height: 0.94;
   }
 
   .hero__mark-wrap {
-    margin-top: 2.2rem;
+    margin-top: 2.8rem;
+  }
+
+  .section-title--belief {
+    max-width: 100%;
+    font-size: clamp(3.15rem, 12vw, 5.4rem);
+    line-height: 0.95;
+  }
+
+  .underline-accent {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin-top: 0.18em;
+    padding-bottom: 0.34em;
   }
 
   .impact__grid {
