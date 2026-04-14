@@ -1725,12 +1725,12 @@ textarea {
   }
 
   .belief.section--light {
-    padding-bottom: 21.5rem;
+    padding-bottom: 24rem;
   }
 
   .belief .divider--slant {
-    height: clamp(13.5rem, 30vw, 18rem);
-    bottom: -7.5rem;
+    height: clamp(14rem, 34vw, 19rem);
+    bottom: -10rem;
   }
 
   .hero__content {
@@ -1750,16 +1750,16 @@ textarea {
 
   .section-title--belief {
     max-width: 100%;
-    font-size: clamp(3.15rem, 12vw, 5.4rem);
-    line-height: 0.95;
+    font-size: clamp(2.8rem, 10.2vw, 4.9rem);
+    line-height: 0.98;
   }
 
   .underline-accent {
     display: block;
     width: fit-content;
     max-width: 100%;
-    margin-top: 0.18em;
-    padding-bottom: 0.34em;
+    margin-top: 0.26em;
+    padding-bottom: 0.5em;
   }
 
   .impact__grid {
