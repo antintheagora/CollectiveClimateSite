@@ -1724,6 +1724,15 @@ textarea {
     min-height: 4.4rem;
   }
 
+  .belief.section--light {
+    padding-bottom: 21.5rem;
+  }
+
+  .belief .divider--slant {
+    height: clamp(13.5rem, 30vw, 18rem);
+    bottom: -7.5rem;
+  }
+
   .hero__content {
     padding-top: 8rem;
     padding-bottom: 9rem;
